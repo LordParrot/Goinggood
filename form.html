@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>
+        Form Making
+    </h1>
+    <form action="/giraff">
+
+        <p>
+            <label for="username">
+                Enter Your Name
+            </label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password"> Enter the password</label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+        <p>
+            <label for="color">choose a color </label>
+            <input id="color" type="color" name="color">
+        </p>
+        <p>
+
+            <label for="date">Enter your date of birth</label>
+            <input id="date" type="date" name="date">
+        </p>
+        <p>
+
+            <label> Enter Your Marks<input type="numbers" placeholder="Marks" name="numbers">
+            </label>
+        </p>
+
+        <p>
+            <label for="subject">Your Favourite Subject</label>
+            <select id="subject" name="subject">
+                <option value="">Choose Your Option</option>
+                <option value="Singhli">Singhi</option>
+                <option value="Niger">Niger</option>
+                <option value="Zimbabwe">Zimbabwe</option>
+                <option value="Arabian">Arabian</option>
+            </select>
+        </p>
+
+        <input id="agree" type="checkbox" name="agree">
+        <label for="agree">Do You Agree? </label>
+
+        </p>
+
+        <p>
+            Choose One:
+            <br>
+            <input type="radio" name="chosen" value="kenyan" id="one">
+            <label for="one">Kenyan</label>
+            <br>
+            <input type="radio" name="chosen" value="zimbabweian" id="two">
+            <label for="two">Zimbabwayen</label>
+            <br>
+            <input type="radio" name="chosen" value="carebian" id="three">
+            <label for="three">Carebian</label>
+            <br>
+            <input type="radio" name="chosen" value="arabian" id="four">
+            <label for="four">Arabian</label>
+        </p>
+
+
+        <p>
+            <label for="package">Expected Package:</label>
+            <br>
+            <input type="range" id="package" name="package" min="3.2" max="5.5">
+
+        </p>
+
+        <p>
+            <label for="description">Describe Yourself:</label>
+            <br>
+            <textarea id="description" name="about" rows="10" cols="40">
+
+            </textarea>
+        </p>
+
+
+        <p>
+            <button type="submit">
+                Click Me I'm a Button
+            </button>
+        </p>
+
+        <p>
+            <label for="submit">Either Please click submit button </label>
+            <input id="submit" type="submit">
+        </p>
+
+        <p>
+            Required constraint Example
+            <br>
+            <label for="names">Username</label>
+            <input id="names" type="text" minlength="5" maxlength="20" name="names">
+            <button type="submit">
+                submit
+            </button>
+        </p>
+    </form>
+</body>
+
+</html>
